@@ -54,7 +54,7 @@ fun HexadecimalScreen() {
         Text("Resultado Decimal: $resultDec")
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Filas de botones
+
         (0..9 step 5).forEach { startIndex ->
             Row(
                 horizontalArrangement = Arrangement.SpaceEvenly,
